@@ -1,0 +1,18 @@
+[init]
+    defaultBranch = main
+[alias]
+    st = status
+    df = diff
+    aa = add --all
+    au = add --update
+    cm = commit -m
+    cc = commit
+    dfst = diff --stat
+    dfsg = diff --staged
+    aacm = !git add --all && git commit -m
+    co = checkout
+    cob = checkout --branch
+[core]
+    editor = nvim
+[gpg]
+    format = ssh
