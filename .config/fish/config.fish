@@ -1,5 +1,6 @@
 set -gx VISUAL nvim
 set -gx EDITOR nvim
+set -gx GPG_TTY (tty)
 
 if status is-interactive
 # Commands to run in interactive sessions can go here
@@ -11,6 +12,4 @@ if status is-interactive
     end
     zoxide init --cmd cd fish | source
 end
-
-
 

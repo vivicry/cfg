@@ -14,5 +14,3 @@
     cob = checkout --branch
 [core]
     editor = nvim
-[gpg]
-    format = ssh
