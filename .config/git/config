@@ -11,6 +11,6 @@
     dfsg = diff --staged
     aacm = !git add --all && git commit -m
     co = checkout
-    cob = checkout --branch
+    cob = checkout -b
 [core]
     editor = nvim
